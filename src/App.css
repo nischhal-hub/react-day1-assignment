@@ -1,0 +1,50 @@
+.header{
+  display:flex;
+  height: 50px;
+  background-color: white;
+  justify-content: space-around;
+}
+
+.nav{
+  color: black;
+  display: flex;
+}
+.nav p{
+  padding:0 10px 10px 10px;
+  
+}
+.product-card{
+  margin: 30px auto;
+  border: 1px solid white;
+  display: flex;
+  width: clamp(200px,60%,550px);
+}
+.product-image{
+  width: 40%;
+  padding: 10px;
+}
+.product-image img{
+ aspect-ratio: 1/1;
+}
+.product-detail{
+  margin-left: 100px;
+}
+.product-heading{
+  line-height: 5px;
+  margin-bottom: 20px;
+}
+.product-description{
+  line-height: 5px;
+  color: antiquewhite;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+.quantity{
+  display: flex;
+}
+.quantity_num{
+  margin: 10px;
+}
+.price{
+  margin:20px 0 20px 0;
+}
