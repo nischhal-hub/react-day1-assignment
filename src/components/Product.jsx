@@ -9,7 +9,7 @@ const Product = ({image ,name, category, size, color, weight, sp_inst, price}) =
   
     }
     const decrease = ()=>{
-      setIsIncreased((count)=>count-1);
+       isIncreased<=0?setIsIncreased(0):setIsIncreased((count)=>count-1);
     }
     return (
       <>
